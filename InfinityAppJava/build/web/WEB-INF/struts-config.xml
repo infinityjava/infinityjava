@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+
+<struts-config>
+    <form-beans>
+        <form-bean name="MasterOccupationsActionForm" type="com.ist.infinity.resources.masters.MasterOccupationsActionForm"/>
+        <form-bean name="SearchForm" type="com.ist.infinity.resources.search.SearchForm"/>
+        <form-bean name="LogoutForm" type="com.ist.infinity.resources.login.LogoutForm"/>
+        <form-bean name="OptionBean" type="com.ist.infinity.resources.login.OptionBean"/>
+        <form-bean name="LoginDisplayBean" type="com.ist.infinity.resources.login.LoginDisplayBean"/>
+        <form-bean name="LoginForm" type="com.ist.infinity.resources.login.LoginForm"/>
+        <form-bean name="HomePageActionForm" type="com.ist.infinity.resources.homepage.HomePageActionForm"/>
+        <form-bean name="MasterPrefixesActionForm" type="com.ist.infinity.resources.masters.MasterPrefixesActionForm"/>
+        
+
+    
+    </form-beans>
+    
+    <global-exceptions>
+    
+    </global-exceptions>
+
+    <global-forwards>
+        <forward name="welcome"  path="/Welcome.do"/>
+        <forward name="login" path="/index.jsp"></forward>
+        <forward name="logout" path="/LogoutAction.do" />
+        <forward name="master" path="/bankHome.jsp" />
+        <forward name="search" path="/search.do" />
+    </global-forwards>
+
+    <action-mappings>
+        <action path="/Login" name="LoginForm" type="com.ist.infinity.resources.login.Login" input="/index.jsp">
+            <forward name="success" path="/HomePageAction.do" />
+            <forward name="fail" path="/index.jsp"/>
+        </action>
+        <action input="/Logout.jsp" name="LogoutForm" path="/LogoutAction" type="com.ist.infinity.resources.login.LogoutAction">
+            <forward name="logout" path="/Logout.jsp"/>
+        </action>
+        
+        
+        <action input="/index.jsp" name="HomePageActionForm" path="/HomePageAction" scope="session" type="com.ist.infinity.resources.homepage.HomePageAction">
+            <forward name="success" path="/HomePage.jsp"/>
+        </action>
+        
+        <!--   MASTER BANK BRANCHES          -->
+        
+        <action input="/bankHome.jsp" name="BankActionForm" path="/BankAction" scope="request" type="com.ist.infinity.resources.bankInfo.BankAction">
+            <forward name="success" path="/bankdetails.jsp" />
+        </action>
+        <action input="/" validate="false" name="BankActionForm" path="/ModifyBranchAction" scope="session" type="com.ist.infinity.resources.bankInfo.ModifyBranchAction">
+            <forward name="success" path="/branchModifyPage.jsp" />
+        </action>
+        
+        <action input="/" name="BankActionForm" path="/SaveAction" scope="session" type="com.ist.infinity.resources.bankInfo.SaveAction" parameter="method">
+            <forward name="success" path="/ModifyBranchAction.do" />
+        </action>
+        <action input="/" name="BankActionForm" path="/AuthenticateBranchAction" scope="session" type="com.ist.infinity.resources.bankInfo.AuthenticateBranchAction">
+            <forward name="success" path="/branchAuthenticate.jsp"/>
+        </action>
+        <action input="/" name="BankActionForm" path="/SaveAuthenticateAction" scope="session" type="com.ist.infinity.resources.bankInfo.SaveAuthenticateAction">
+            <forward name="success" path="/AuthenticateBranchAction.do" />
+        </action>
+        <action input="/" name="BankActionForm" path="/AuthenticateDeleteAction" scope="session" type="com.ist.infinity.resources.bankInfo.AuthenticateDeleteAction">
+            <forward name="success" path="/branchDeletePage.jsp"/>
+        
+        </action>
+        <action input="/branchDeletePage.jsp" name="BankActionForm" path="/BranchDeleteAction" scope="session" type="com.ist.infinity.resources.bankInfo.BranchDeleteAction">
+            <forward name="success" path="/bankHome.jsp"/>
+        </action>
+       
+        <action input="/" name="BankActionForm" path="/BranchDetailsAction" scope="session" type="com.ist.infinity.resources.bankInfo.BranchDetailsAction"/>
+    
+ 
+         <!--   MASTER   ADDRESS TYPES           -->
+        <action input="/" name="AddressActionForm" path="/ModifyAddressAction" scope="session" type="com.ist.infinity.resources.addressInfo.ModifyAddressAction">
+            <forward name="addressmodify" path="/addressModifypage.jsp"/>
+        </action>
+        
+        <action input="/" name="AddressActionForm" path="/SaveAddressAction" scope="session" type="com.ist.infinity.resources.addressInfo.SaveAddressAction"  parameter="method">
+            <forward name="success" path="/ModifyAddressAction.do" />
+        </action>
+       
+        <action input="/" name="AddressActionForm" path="/AuthenticateAddressAction" scope="session" type="com.ist.infinity.resources.addressInfo.AuthenticateAddressAction">
+            <forward name="success" path="/addressAuthenticate.jsp"/>
+        </action>
+        <action input="/" name="AddressActionForm" path="/SaveAuthenticateAddressAction" scope="session" type="com.ist.infinity.resources.addressInfo.SaveAuthenticateAddressAction">
+            <forward name="success" path="/AuthenticateAddressAction.do" />
+        </action>
+        <action input="/" name="AddressActionForm" path="/AuthenticateAddressDeleteAction" scope="session" type="com.ist.infinity.resources.addressInfo.AuthenticateAddressDeleteAction">
+            <forward name="success" path="/AddressDeletePage.jsp"/>
+        </action>
+        <action input="/AddressDeletePage.jsp" name="AddressActionForm" path="/AddressDeleteAction" scope="session" type="com.ist.infinity.resources.addressInfo.AddressDeleteAction">
+            <forward name="success" path="/AuthenticateAddressDeleteAction.do"/>
+        </action>
+        <action input="/" name="SearchForm" path="/search" scope="session" type="com.ist.infinity.resources.search.SearchAction">
+            
+        </action>
+       
+        <action path="/AddressDetailAction"  name="AddressActionForm" type="com.ist.infinity.resources.addressInfo.AddressDetailAction"/>
+       
+        <action input="/addressdetails.jsp" name="AddressActionForm" path="/AddressAction" scope="session" type="com.ist.infinity.resources.addressInfo.AddressAction"/>
+
+
+     <!-- Master tables actions -->
+
+        <action input="/masterPrefixesInfo.jsp" name="MasterPrefixesActionForm" path="/MasterPrefixesAction" scope="request" parameter="method" type="com.ist.infinity.resources.masters.MasterPrefixesAction">
+            <forward name="success" path="/masterHome.jsp"/>
+        </action>
+        <action input="/masterPrefixesInfo.jsp" name="MasterPrefixesActionForm" path="/PrefixesDetailsAction" scope="request" type="com.ist.infinity.resources.masters.PrefixesDetailsAction" validate="false"/>
+
+
+
+        <action input="/masterOccupationsInfo.jsp" name="MasterOccupationsActionForm" path="/MasterOccupationsAction" scope="request" parameter="method" type="com.ist.infinity.resources.masters.MasterOccupationsAction">
+            <forward name="success" path="/masterHome.jsp"/>
+        </action>
+        <action input="/masterOccupationsInfo.jsp" name="MasterOccupationsActionForm" path="/OccupationsDetailsAction" scope="request" type="com.ist.infinity.resources.masters.OccupationsDetailsAction"/>
+  1
+      <!--  <action input="/masterOccupationsInfo.jsp" name="MasterOccupationsActionForm" path="/MasterOccupationsAction" scope="request" type="com.ist.infinity.resources.masters.MasterOccupationsAction"/>
+
+        <action input="/" name="SearchForm" path="/MasterOccupationsAction" scope="session" type="com.ist.infinity.resources.masters.MasterOccupationsAction"/>
+       
+       -->
+
+        
+        
+        <action path="/Welcome" forward="/welcomeStruts.jsp"/>
+    </action-mappings>
+    
+    <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
+
+    <message-resources parameter="com/ist/inifinity/resources/applicationproperties/ApplicationResource"/>
+    
+    <!-- ========================= Tiles plugin ===============================-->
+    <!--
+    This plugin initialize Tiles definition factory. This later can takes some
+    parameters explained here after. The plugin first read parameters from
+    web.xml, thenoverload them with parameters defined here. All parameters
+    are optional.
+    The plugin should be declared in each struts-config file.
+    - definitions-config: (optional)
+    Specify configuration file names. There can be several comma
+    separated file names (default: ?? )
+    - moduleAware: (optional - struts1.1)
+    Specify if the Tiles definition factory is module aware. If true
+    (default), there will be one factory for each Struts module.
+    If false, there will be one common factory for all module. In this
+    later case, it is still needed to declare one plugin per module.
+    The factory will be initialized with parameters found in the first
+    initialized plugin (generally the one associated with the default
+    module).
+    true : One factory per module. (default)
+    false : one single shared factory for all modules
+    - definitions-parser-validate: (optional)
+    Specify if xml parser should validate the Tiles configuration file.
+    true : validate. DTD should be specified in file header (default)
+    false : no validation
+
+    Paths found in Tiles definitions are relative to the main context.
+    -->
+    <plug-in className="org.apache.struts.tiles.TilesPlugin" >
+        <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+        <set-property property="moduleAware" value="true" />
+    </plug-in>
+    
+    <!-- ========================= Validator plugin ================================= -->
+    <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property
+            property="pathnames"
+            value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+    </plug-in>
+  
+</struts-config>

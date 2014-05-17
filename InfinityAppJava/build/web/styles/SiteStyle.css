@@ -1,0 +1,1769 @@
+/* 
+    Document   : SiteStyle
+    Created on : 10 Feb, 2014, 10:31:06 AM
+    Author     : kareem
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+ Inspect
+ConsoleHTMLCSSScriptDOM
+body {
+  background-color:#E0ECF9;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  margin:0;
+  text-align:justify;
+}
+
+#td_data{
+    
+padding:2;padding-bottom:4
+}
+#td1{
+    padding:13;
+}
+#index{
+    background-color: white;
+}
+#error{
+    color: red;
+}
+#ibody {
+  left:0;
+  position:relative;
+  top:0;
+  width:780px;
+}
+#ibody_x {
+  position:relative;
+  width:100%;
+}
+#xbody {
+  background-color:#FFFFFF;
+  border:1px solid #98C0EA;
+  float:left;
+  position:relative;
+  width:780px;
+}
+#xbody_x {
+  margin:auto;
+  position:relative;
+}
+#header {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/headerbg.gif);
+  background-position:initial initial;
+  background-repeat:repeat no-repeat;
+  float:left;
+  height:135px;
+  padding-left:18px;
+  width:762px;
+}
+#header_x {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/headerbg.gif);
+  background-position:initial initial;
+  background-repeat:repeat no-repeat;
+  border-left-color:#B0C4DE;
+  border-left-style:solid;
+  border-left-width:thin;
+  border-right-color:#B0C4DE;
+  border-right-style:solid;
+  border-right-width:thin;
+  height:125px;
+  margin:auto;
+  padding-top:10px;
+  position:relative;
+  width:900px;
+}
+#header_x_bk {
+  height:135px;
+  margin:auto;
+  width:780px;
+}
+#header_leftbg {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/headerleft.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-left-color:#E0ECF9;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:#E0ECF9;
+  border-right-style:solid;
+  border-right-width:1px;
+  cursor:pointer;
+  float:left;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+  height:134px;
+  line-height:134px;
+  margin-top:1px;
+  text-align:center;
+  width:206px;
+}
+#header_leftbg a:link {
+  color:#03509F;
+  text-decoration:none;
+}
+#header_leftbg a:visited {
+  color:#03509F;
+  text-decoration:none;
+}
+#header_leftbg a:hover {
+  text-decoration:underline;
+}
+#header_rightbg_x {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/headright.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  height:109px;
+  margin:auto;
+  width:900px;
+}
+#header_rightbg {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/headright.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  height:109px;
+  margin-top:12px;
+  width:553px;
+}
+.headflag_1 {
+  float:left;
+  height:68px;
+  width:50px;
+}
+.headflag_1 img {
+  margin:0 auto auto 5px;
+}
+.headflag_2 {
+  float:left;
+  height:auto;
+  width:503px;
+}
+.headflag_2_x {
+  float:left;
+  height:auto;
+  width:730px;
+}
+.navx {
+  float:left;
+  height:22px;
+  width:100px;
+}
+.h_navx {
+  float:left;
+  font-family:APS-C-DV-Prakash;
+  height:22px;
+  width:100px;
+}
+.navx_x {
+  float:right;
+  height:22px;
+  width:100px;
+}
+.nav1_x {
+  float:right;
+  height:22px;
+  padding-top:5px;
+  text-align:right;
+  width:403px;
+}
+.nav1_x ul {
+  float:right;
+  height:22px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.nav1_x ul li {
+  border-right-color:#000000;
+  border-right-style:solid;
+  border-right-width:1px;
+  color:#000000;
+  float:right;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  height:10px;
+  line-height:10px;
+  margin:auto 5px;
+  padding-right:5px;
+}
+.nav1_x a:link {
+  color:#000000;
+  font-weight:bold;
+  padding-left:2px;
+  padding-right:2px;
+}
+.nav1_x a:visited {
+  color:#000000;
+  font-weight:bold;
+  padding-left:2px;
+  padding-right:2px;
+}
+.nav1_x a:hover {
+  color:#AC0000;
+  font-weight:bold;
+}
+.h_nav1_x {
+  float:right;
+  height:22px;
+  padding-top:5px;
+  text-align:right;
+  width:403px;
+}
+.h_nav1_x ul {
+  float:right;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.h_nav1_x ul li {
+  color:#000000;
+  float:right;
+  font-size:13px;
+  height:10px;
+  line-height:10px;
+  margin:auto 5px;
+  padding-top:5px;
+}
+.h_nav1_x a:link {
+  color:#000000;
+  font-weight:bold;
+}
+.h_nav1_x a:visited {
+  color:#000000;
+  font-weight:bold;
+}
+.h_nav1_x a:hover {
+  color:#AC0000;
+  font-weight:bold;
+}
+.nav1 {
+  float:left;
+  height:22px;
+  padding-top:5px;
+  text-align:right;
+  width:403px;
+}
+.nav1 a:link {
+  color:#000000;
+  font-weight:bold;
+  padding-left:2px;
+  padding-right:2px;
+}
+.nav1 a:visited {
+  color:#000000;
+  font-weight:bold;
+  padding-left:2px;
+  padding-right:2px;
+}
+.nav1 a:hover {
+  color:#AC0000;
+  font-weight:bold;
+}
+.nav1 ul {
+  float:right;
+  height:22px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.nav1 ul li {
+  border-right-color:#000000;
+  border-right-style:solid;
+  border-right-width:1px;
+  color:#000000;
+  float:right;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  height:10px;
+  line-height:10px;
+  margin:auto 5px;
+  padding-right:5px;
+}
+.h_nav1 {
+  float:left;
+  height:22px;
+  padding-top:5px;
+  text-align:right;
+  width:403px;
+}
+.h_nav1 a:link {
+  color:#000000;
+  font-weight:bold;
+}
+.h_nav1 a:visited {
+  color:#000000;
+  font-weight:bold;
+}
+.h_nav1 a:hover {
+  color:#AC0000;
+  font-weight:bold;
+}
+.h_nav1 ul {
+  float:right;
+  height:22px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.h_nav1 ul li {
+  color:#000000;
+  float:right;
+  font-size:13px;
+  height:10px;
+  line-height:10px;
+  margin:auto 5px;
+  padding-top:5px;
+}
+.otherwz {
+  color:#14A8DC;
+  float:right;
+  font-size:15.66px;
+  line-height:20px;
+  text-align:center;
+  text-decoration:none;
+  width:100px;
+}
+.nav2 {
+  color:#03509F;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  height:47px;
+  line-height:40px;
+  text-align:center;
+  width:503px;
+}
+.nav2_inner {
+  color:#03509F;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  height:40px;
+  line-height:22px;
+  padding-left:20px;
+  padding-top:15px;
+  text-align:center;
+  width:530px;
+}
+.h_nav2 {
+  color:#03509F;
+  float:left;
+  font-size:17px;
+  font-weight:bold;
+  height:47px;
+  line-height:40px;
+  text-align:center;
+  width:503px;
+}
+.nav3_x {
+  height:32px;
+  padding-left:57px;
+  width:780px;
+}
+.nav3_x ul {
+  float:right;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.nav3_x ul li {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/linkbg.gif);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:9px;
+  font-weight:bold;
+  height:32px;
+  margin-left:1px;
+  text-align:center;
+  width:109px;
+}
+.h_nav3_x {
+  float:left;
+  height:32px;
+  width:780px;
+}
+.h_nav3_x ul {
+  float:right;
+  list-style-image:initial;
+  list-style-position:initial;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.h_nav3_x ul li {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/linkbg.gif);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  font-family:APS-C-DV-Prakash;
+  font-size:11px;
+  height:32px;
+  margin-left:1px;
+  padding-top:3px;
+  text-align:center;
+  vertical-align:middle;
+  width:109px;
+}
+.nav3 {
+  height:32px;
+}
+.nav3 ul {
+  list-style-image:initial;
+  list-style-position:initial;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.nav3 ul li {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/linkbg.gif);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:9px;
+  font-weight:bold;
+  height:32px;
+  margin-left:1px;
+  text-align:center;
+  width:109px;
+}
+.nav3 ul li a:link {
+  color:#FFFFFF;
+  display:block;
+  height:32px;
+  text-decoration:none;
+}
+.nav3 ul li a:visited {
+  color:#FFFFFF;
+  display:block;
+  height:32px;
+  text-decoration:none;
+}
+.nav3 ul li a:hover {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/pagemouse.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#000000;
+  display:block;
+  height:32px;
+  text-decoration:underline;
+}
+.nav3_x ul li a:link {
+  color:#FFFFFF;
+  display:block;
+  height:32px;
+  text-decoration:none;
+}
+.nav3_x ul li a:visited {
+  color:#FFFFFF;
+  display:block;
+  height:32px;
+  text-decoration:none;
+}
+.nav3_x ul li a:hover {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/pagemouse.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#000000;
+  display:block;
+  height:32px;
+  text-decoration:underline;
+}
+.h_nav3 {
+  float:left;
+  height:32px;
+  width:553px;
+}
+.h_nav3 ul {
+  list-style-image:initial;
+  list-style-position:initial;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.h_nav3 ul li {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/linkbg.gif);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  font-family:APS-C-DV-Prakash;
+  font-size:11px;
+  height:32px;
+  margin-left:1px;
+  padding-top:3px;
+  text-align:center;
+  vertical-align:middle;
+  width:109px;
+}
+.h_nav3 ul li a:link {
+  color:#FFFFFF;
+  display:block;
+  height:32px;
+  text-decoration:none;
+}
+.h_nav3 ul li a:visited {
+  color:#FFFFFF;
+  display:block;
+  height:32px;
+  text-decoration:none;
+}
+.h_nav3 ul li a:hover {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/pagemouse.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#000000;
+  display:block;
+  height:32px;
+  text-decoration:underline;
+}
+.h_nav3_x ul li a:link {
+  color:#FFFFFF;
+  display:block;
+  height:32px;
+  text-decoration:none;
+}
+.h_nav3_x ul li a:visited {
+  color:#FFFFFF;
+  display:block;
+  height:32px;
+  text-decoration:none;
+}
+.h_nav3_x ul li a:hover {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/pagemouse.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#000000;
+  display:block;
+  height:32px;
+  text-decoration:underline;
+}
+#midbody {
+  float:left;
+  padding-left:18px;
+  position:relative;
+  width:762px;
+}
+.midbody_bk {
+  margin:auto;
+  position:relative;
+}
+#midbody_x {
+  margin:auto;
+  position:relative;
+  width:900px;
+
+  border-right-color: rgb(176, 196, 222);
+  border-right-width: thin;
+  border-right-style: solid;
+  border-left-color: rgb(176, 196, 222);
+  border-left-width: thin;
+  border-left-style: solid;
+}
+#date{
+   margin-left: 484px;
+}
+#sub_body{
+    background-color: rgb(197, 69, 27);
+}
+#midbody_x_x {
+  background-color:#FFFFFF;
+  border-bottom-color:#DCDCDC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-right-color:#DCDCDC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  margin:auto;
+  position:relative;
+  width:899px;
+  height:500px;
+}
+#leftbody {
+  float:left;
+  width:208px;
+}
+#leftbody_x {
+  float:left;
+  width:208px;
+}
+.banner {
+  float:left;
+  height:229px;
+  width:341px;
+}
+.inputxx {
+  border:1px solid #03509F;
+  float:left;
+  height:18px;
+  width:125px;
+}
+.inputxx_1 {
+  float:left;
+  height:24px;
+  width:132px;
+}
+.searchbtngo {
+  float:left;
+  height:24px;
+  width:32px;
+}
+.search_txt {
+  float:left;
+  height:24px;
+  margin-left:0;
+  margin-right:5px;
+}
+.search {
+  background-color:#FFFFFF;
+  border-bottom-color:#DCDCDC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-left-color:#DCDCDC;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:#DCDCDC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  height:84px;
+  padding-left:15px;
+  padding-top:5px;
+  width:191px;
+}
+.h_search {
+  background-color:#FFFFFF;
+  border-bottom-color:#DCDCDC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-left-color:#DCDCDC;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:#DCDCDC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  height:85px;
+  padding-left:15px;
+  padding-top:5px;
+  width:191px;
+}
+.leftbar {
+  border-bottom-color:#DCDCDC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-left-color:#DCDCDC;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:#DCDCDC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  height:auto;
+  padding-left:15px;
+  padding-top:29px;
+  width:189px;
+}
+.search1 {
+  border-bottom-color:#DCDCDC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-left-color:#DCDCDC;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:#DCDCDC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  height:65px;
+  padding-left:15px;
+  padding-top:5px;
+  width:189px;
+}
+.search_x {
+  border-left-color:#DCDCDC;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:#DCDCDC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  height:138px;
+  padding-left:15px;
+  padding-top:29px;
+  width:191px;
+}
+.navleft {
+  background-color:#AC0000;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  height:390px;
+  width:208px;
+}
+.navleft ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.navleft ul li {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/sj.gif);
+  background-position:18px 10px;
+  background-repeat:no-repeat no-repeat;
+  border-bottom-color:#D68080;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  color:#FFFFFF;
+  display:block;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  font-weight:bold;
+  height:27px;
+  line-height:27px;
+  width:208px;
+}
+.navleft ul li a:link {
+  color:#FFFFFF;
+  display:block;
+  padding-left:30px;
+  text-decoration:none;
+}
+.navleft ul li a:hover {
+  background-color:#F38D2B;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  display:block;
+  padding-left:30px;
+}
+.navleft ul li a:visited {
+  color:#FFFFFF;
+  display:block;
+  padding-left:30px;
+  text-decoration:none;
+}
+.bannerright {
+  background-color:#03509F;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  padding-left:10px;
+  width:203px;
+}
+.bannerlatestnews {
+  float:left;
+  height:229px;
+  padding-left:10px;
+  width:540px;
+}
+.search_title {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/sjsearch.gif);
+  background-position:0 5px;
+  background-repeat:no-repeat no-repeat;
+  color:#03509F;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  margin-top:15px;
+  padding-bottom:5px;
+  padding-left:10px;
+  width:120px;
+}
+#rightbody {
+  float:left;
+  width:554px;
+}
+.laternews {
+  border-bottom-color:#FFFFFF;
+  border-bottom-style:dashed;
+  border-bottom-width:1px;
+  color:#F59A47;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:19px;
+  height:25px;
+  margin-left:0;
+  width:190px;
+}
+.latestnews {
+  border-bottom-color:#FFFFFF;
+  border-bottom-style:dashed;
+  border-bottom-width:1px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:19px;
+  height:25px;
+  margin-left:0;
+  width:540px;
+}
+.listnews {
+  color:#FFFFFF;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  margin:0;
+  padding:0 0 0 15px;
+  text-decoration:underline;
+  width:183px;
+}
+.listnews li {
+}
+.listnews a:link {
+  color:#FFFFFF;
+  text-decoration:underline;
+}
+.listnews a:visited {
+  color:#FFFFFF;
+  text-decoration:underline;
+}
+.listnews a:hover {
+  text-decoration:none;
+}
+.listLatestnews {
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  margin-top:10px;
+  width:400px;
+}
+.btnlst {
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  line-height:19px;
+  margin-left:3px;
+  margin-top:10px;
+  padding-bottom:10px;
+  text-align:left;
+  width:183px;
+}
+.btnlatestnews {
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  height:200px;
+  line-height:19px;
+  margin-left:3px;
+  margin-top:20px;
+  padding-bottom:10px;
+  width:183px;
+}
+.btnmore {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/btnmore.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  font-weight:bold;
+  line-height:19px;
+  margin-left:3px;
+  margin-top:5px;
+  text-align:center;
+  width:183px;
+}
+.btnmore a:link {
+  color:#FFFFFF;
+  display:block;
+  text-decoration:none;
+}
+.btnmore a:visited {
+  color:#FFFFFF;
+  display:block;
+  text-decoration:none;
+}
+.btnmore a:hover {
+  background-color:#FF9933;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:1px solid #FFFFFF;
+  display:block;
+}
+.btnmore_h {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/btnmore.gif);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  line-height:19px;
+  margin-left:3px;
+  margin-top:10px;
+  text-align:center;
+  width:183px;
+}
+.btnmore_h a:link {
+  color:#FFFFFF;
+  display:block;
+  text-decoration:none;
+}
+.btnmore_h a:visited {
+  color:#FFFFFF;
+  display:block;
+  text-decoration:none;
+}
+.btnmore_h a:hover {
+  background-color:#FF9933;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  display:block;
+}
+.midbg {
+  float:left;
+  font-style:normal;
+  height:35px;
+  margin-left:0;
+  margin-top:2px;
+  width:543px;
+}
+.midbg_1 {
+  background-color:#03509F;
+  color:#FFFFFF;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  height:19px;
+  line-height:19px;
+  text-align:center;
+  width:543px;
+}
+.midbg_1 a {
+  background-color:#03509F;
+  color:#FFFFFF;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  text-decoration:none;
+}
+.midbg_1 a:hover {
+  background-color:#03509F;
+  color:#FFFFFF;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+}
+.midbg_1 a:visited {
+  background-color:#03509F;
+  color:#FFFFFF;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+}
+.midbg_2 {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/mbg.gif);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  height:1px;
+  width:543px;
+}
+.right_1 {
+  float:left;
+  width:621px;
+  height: 300px;
+}
+.rightline {
+  border-bottom-color:#DCDCDC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-right-color:#DCDCDC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  height:300px;
+  padding-left:5px;
+  width:548px;
+}
+.rightline1 {
+  border-bottom-color:#DCDCDC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-right-color:#DCDCDC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  height:154px;
+  padding-left:5px;
+  position:relative;
+  width:540px;
+}
+.midpp {
+  float:left;
+  margin-left:0;
+  margin-top:0;
+  width:108px;
+}
+.midpp1 {
+  float:left;
+  margin-left:0;
+  margin-top:0;
+  width:108px;
+}
+.midpp_x {
+  float:left;
+  margin-top:0;
+  width:136px;
+}
+.midpp_x1 {
+  float:left;
+  margin-left:10px;
+  margin-top:1px;
+  width:136px;
+}
+.midpp_1 {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/flagbo.gif);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  border-bottom-color:#03509F;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  height:27px;
+  width:108px;
+}
+.midpp_1_x {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/flagbo.gif);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  border-bottom-color:#03509F;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  height:27px;
+  width:136px;
+}
+.midpp_pic {
+  border-bottom-color:#03509F;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  height:80px;
+}
+.h_midpp_pic {
+  border-bottom-color:#03509F;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  font-size:20px;
+  font-weight:bold;
+  height:80px;
+  width:106px;
+}
+.midpp_pic_x {
+  border-bottom-color:#03509F;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  height:80px;
+  margin-top:2px;
+  width:136px;
+}
+.midpp_wz {
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  padding-top:10px;
+  text-align:center;
+}
+.midpp_wz a:link {
+  color:#03509F;
+  text-decoration:none;
+}
+.midpp_wz a:visited {
+  color:#03509F;
+  text-decoration:none;
+}
+.midpp_wz a:hover {
+  color:#03509F;
+  text-decoration:underline;
+}
+.h_midpp_wz {
+  font-size:15px;
+  font-weight:bold;
+  text-align:center;
+}
+.h_midpp_wz a:link {
+  color:#03509F;
+  text-decoration:none;
+}
+.h_midpp_wz a:visited {
+  color:#03509F;
+  text-decoration:none;
+}
+.h_midpp_wz a:hover {
+  color:#03509F;
+  text-decoration:none;
+}
+.right_mid_line {
+  background-color:#DCDCDC;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  height:80px;
+  margin:15px;
+  width:1px;
+}
+.right_mid_line_sanjay {
+  background-color:#DCDCDC;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  height:40px;
+  margin:15px;
+  width:1px;
+}
+.right_mid_line1 {
+  background-color:#DCDCDC;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  height:154px;
+  margin:15px 20px;
+  width:1px;
+}
+#footer {
+  background-color:#E0ECF9;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-color:#B0C4DE;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-left-color:#B0C4DE;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:#B0C4DE;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  height:50px;
+  margin-top:0;
+  width:780px;
+  z-index:0;
+}
+#footer_x {
+  background-color:#E0ECF9;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  height:44px;
+  width:100%;
+}
+#footer_x_x {
+  background-color:#E0ECF9;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  height:38px;
+  margin:auto;
+  width:780px;
+}
+.footer_bk {
+  border-bottom-color:#B0C4DE;
+  border-bottom-style:solid;
+  border-bottom-width:thin;
+  border-left-color:#B0C4DE;
+  border-left-style:solid;
+  border-left-width:thin;
+  border-right-color:#B0C4DE;
+  border-right-style:solid;
+  border-right-width:thin;
+  clear:both;
+  height:42px;
+  margin:auto;
+  width:900px;
+  z-index:0;
+}
+.footer_line {
+  background-color:#98C0EA;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-color:#FFFFFF;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  height:5px;
+  width:780px;
+}
+.footer_line_x {
+  background-color:#98C0EA;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-color:#FFFFFF;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  height:5px;
+  width:100%;
+}
+.vistor {
+  border-right-color:#FFFFFF;
+  border-right-style:solid;
+  border-right-width:1px;
+  color:#14A8DC;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  font-weight:bold;
+  height:24px;
+  margin-left:30px;
+  padding-right:10px;
+  padding-top:10px;
+  width:132px;
+}
+.goback a {
+  color:#FFFFFF;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  font-style:normal;
+  font-weight:bold;
+  text-decoration:none;
+}
+.goback a:hover {
+  color:#FFFFFF;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  font-style:normal;
+  font-weight:bold;
+  text-decoration:underline;
+}
+.h_vistor {
+  border-right-color:#FFFFFF;
+  border-right-style:solid;
+  border-right-width:1px;
+  color:#14A8DC;
+  float:left;
+  font-family:APS-C-DV-Prakash;
+  font-size:15px;
+  font-weight:bold;
+  height:24px;
+  margin-left:30px;
+  padding-bottom:5px;
+  padding-right:10px;
+  padding-top:5px;
+  width:132px;
+}
+.number {
+  background-color:#000000;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#FFFFFF;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  height:21px;
+  line-height:21px;
+  margin-left:10px;
+  margin-top:7px;
+  text-align:center;
+  width:135px;
+}
+.copyright {
+  color:#4A4A4A;
+  float:left;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  margin-left:65px;
+  margin-top:7px;
+}
+.copyright a:link {
+  color:#4A4A4A;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  margin-top:7px;
+  text-decoration:none;
+}
+.copyright a:visited {
+  color:#4A4A4A;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  margin-top:7px;
+  text-decoration:none;
+}
+.copyright_h {
+  color:#4A4A4A;
+  float:right;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  margin-left:65px;
+  margin-top:7px;
+  padding-right:10px;
+}
+.copyright_h a:link {
+  color:#4A4A4A;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  margin-top:7px;
+  text-decoration:none;
+}
+.copyright_h a:visited {
+  color:#4A4A4A;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  margin-top:7px;
+  text-decoration:none;
+}
+.page_x {
+  color:#AC0000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:17px;
+  font-weight:bold;
+  line-height:25px;
+  padding-bottom:15px;
+  text-align:center;
+}
+.H_page_x {
+  color:#AC0000;
+  font-family:APS-C-DV-Prakash;
+  font-size:22px;
+  font-weight:bold;
+  line-height:25px;
+  padding-bottom:20px;
+  text-align:center;
+}
+.pagelist_x {
+  background-color:#FFFFFF;
+  color:#000000;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:15px;
+  padding-left:215px;
+  padding-right:15px;
+  padding-top:0;
+  text-align:justify;
+  width:auto;
+}
+.page_inner {
+  color:#AC0000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:17px;
+  font-weight:bold;
+  line-height:25px;
+  padding-bottom:20px;
+  text-align:center;
+}
+.pagelist_inner_x a {
+  color:#0033CC;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+.pagelist_inner_x a:hover {
+  color:#FF0000;
+  font-style:normal;
+  text-decoration:underline;
+}
+.H_pagelist_x {
+  background-color:#FFFFFF;
+  color:#000000;
+  font-family:APS-C-DV-Prakash;
+  font-size:16px;
+  line-height:15px;
+  padding-top:0;
+  text-align:justify;
+  width:auto;
+}
+.H_pagelist_x a {
+  font-family:APS-C-DV-Prakash;
+}
+.H_pagelist_x span a {
+  font-family:APS-C-DV-Prakash;
+}
+.pagehead {
+  background-color:#FFFFFF;
+  color:#000000;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:15px;
+  padding-bottom:10px;
+  padding-left:15px;
+  padding-top:20px;
+  text-align:justify;
+  width:auto;
+}
+.pagehead a {
+  color:#0033CC;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-weight:normal;
+  text-decoration:none;
+}
+.pagehead a:hover {
+  color:#FF0000;
+  text-decoration:underline;
+}
+.headpagelist_x {
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:15px;
+  padding-left:215px;
+  padding-top:0;
+  text-align:justify;
+}
+.h_headpagelist_x {
+  font-family:APS-C-DV-Prakash;
+  font-size:11px;
+  line-height:15px;
+  padding-left:215px;
+  padding-top:0;
+  text-align:justify;
+}
+.midppx {
+  float:left;
+  height:155px;
+  padding-left:10px;
+  width:320px;
+}
+.midppx1 {
+  float:left;
+  height:100px;
+  padding-left:100px;
+  width:440px;
+}
+.midppx1 {
+  float:left;
+  height:100px;
+  padding-left:100px;
+  width:440px;
+}
+a.links {
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.links:hover {
+  font-style:normal;
+  text-decoration:underline;
+}
+a.links1 {
+  color:#800080;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.links1:hover {
+  color:#800080;
+  font-style:normal;
+  text-decoration:underline;
+}
+a.links2 {
+  color:#0033CC;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.links2:hover {
+  color:#0033CC;
+  font-style:normal;
+  text-decoration:underline;
+}
+a.links3 {
+  color:#FF6464;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.links3:hover {
+  color:#FF6464;
+  font-style:normal;
+  text-decoration:underline;
+}
+a.headlinks {
+  color:#AC0000;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.headlinks:hover {
+  color:#AC0000;
+  font-style:normal;
+  font-weight:bold;
+  text-decoration:underline;
+}
+a.h_links {
+  color:#336633;
+  font-family:APS-C-DV-Prakash;
+  font-size:16px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.h_links:hover {
+  color:#336633;
+  font-style:normal;
+  text-decoration:underline;
+}
+a.h_links1 {
+  color:#800080;
+  font-family:APS-C-DV-Prakash;
+  font-size:16px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.h_links1:hover {
+  color:#800080;
+  font-style:normal;
+  text-decoration:underline;
+}
+a.h_links2 {
+  color:#0033CC;
+  font-family:APS-C-DV-Prakash;
+  font-size:16px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.h_links2:hover {
+  color:#0033CC;
+  font-style:normal;
+  text-decoration:underline;
+}
+a.h_links3 {
+  color:#FF6464;
+  font-family:APS-C-DV-Prakash;
+  font-size:16px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.h_links3:hover {
+  color:#FF6464;
+  font-style:normal;
+  text-decoration:underline;
+}
+a.h_headlinks {
+  color:#AC0000;
+  font-family:APS-C-DV-Prakash;
+  font-size:14px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.h_headlinks:hover {
+  color:#AC0000;
+  font-style:normal;
+  font-weight:bold;
+  text-decoration:underline;
+}
+.pagelist_x a {
+  color:#0033CC;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+.pagelist_x a:hover {
+  color:#FF0000;
+  font-style:normal;
+  text-decoration:underline;
+}
+a.depthlinks {
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.depthlinks:hover {
+  font-style:normal;
+  text-decoration:underline;
+}
+.h_depthlinks {
+  font-family:APS-C-DV-Prakash;
+  font-size:14px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.h_depthlinks {
+  font-family:APS-C-DV-Prakash;
+  font-size:14px;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+a.h_depthlinks:hover {
+  font-style:normal;
+  text-decoration:underline;
+}
+.listing {
+  float:left;
+  padding:0;
+  width:480px;
+}
+.listing ul {
+  float:left;
+}
+.listing li {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/arrow1.gif);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  color:#000000;
+  float:left;
+  list-style-type:none;
+  padding:0 0 0 25px;
+  width:480px;
+}
+.divider {
+  color:#AC0000;
+  padding-left:10px;
+  padding-right:5px;
+  text-align:center;
+}
+.combobox {
+  border:1px solid navy;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  font-weight:normal;
+  line-height:16px;
+  text-align:justify;
+  text-decoration:none;
+  vertical-align:middle;
+}
+.text {
+  background-color:#F2F2F2;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:1px solid navy;
+  color:navy;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  line-height:16px;
+  text-align:justify;
+  text-decoration:none;
+  vertical-align:middle;
+}
+.label {
+  color:navy;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  line-height:16px;
+  text-align:justify;
+  text-decoration:none;
+  vertical-align:middle;
+}
+.combobox {
+  background-color:#F2F2F2;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:1px solid navy;
+  color:navy;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  line-height:16px;
+  text-align:justify;
+  text-decoration:none;
+  vertical-align:middle;
+}
+.button {
+  background-image:url(http://mospi.nic.in/Mospi_New/images/glossyback.gif);
+  border:1px solid navy;
+  color:navy;
+  cursor:pointer;
+  display:block;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  text-align:center;
+  vertical-align:middle;
+}
+.h_div {
+  background-color:#F2F2F2;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:1px solid navy;
+  color:navy;
+  font-family:APS-C-DV-Prakash;
+  font-size:16px;
+  font-weight:normal;
+  line-height:16px;
+  text-align:justify;
+  text-decoration:none;
+  vertical-align:middle;
+}
+.h_top_menu {
+  font-family:APS-C-DV-Prakash;
+  font-size:12px;
+  font-weight:bold;
+}
+.event_btn {
+  color:#AC0000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  line-height:25px;
+  padding-left:10px;
+  padding-right:5px;
+  text-align:center;
+}
+.h_combobox {
+  background-color:#F2F2F2;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:1px solid navy;
+  color:navy;
+  font-family:APS-C-DV-Prakash;
+  font-size:13px;
+  font-weight:normal;
+  line-height:16px;
+  text-align:justify;
+  text-decoration:none;
+  vertical-align:middle;
+}
+.tbl {
+  border-collapse:collapse;
+}
+.tbl td {
+  border:1px solid #99CCFF;
+  padding:5px;
+}
+.headings_h {
+  color:#AC0000;
+  font-family:APS-C-DV-Prakash;
+  font-size:23px;
+  font-weight:bold;
+  margin-top:0;
+  padding-bottom:20px;
+  padding-left:10px;
+  padding-top:0;
+}
+.headings {
+  color:#AC0000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:17px;
+  font-weight:bold;
+  margin-top:0;
+  padding-bottom:20px;
+  padding-left:10px;
+  padding-top:0;
+}
+.marginset {
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+}
+#column {
+  float:left;
+  margin-left:20px;
+  margin-right:20px;
+  text-align:justify;
+  width:650px;
+}
+
